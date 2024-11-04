@@ -6,5 +6,5 @@ You can see the SQL diagram of the dataset below:
 
 ![alt text](https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Olist_ERD_diagram.png)
 
-///sql
-select*from table///
+'''sql
+select*from table'''
