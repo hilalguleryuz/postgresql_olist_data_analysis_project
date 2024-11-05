@@ -44,7 +44,7 @@ order by 2 desc;
 ![alt text](https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q2.png)
 
 ### EXCEL OUTPUT
-<img src="https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q2-G.png" alt="alt text" width="650"/>
+<img src="https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q2-G.png" alt="alt text" width="600"/>
 
 When we examine the graph above, we see that the most used payment method is credit card and the least used method is debit card.
 ____
