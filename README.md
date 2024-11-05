@@ -22,3 +22,5 @@ order by 1;
 ![alt text](https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Screenshots/Case1/Case1-Q1.png)
 
 ![alt text](https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Screenshots/Case1/Case1-Q1-G.png)
+
+When we examine the output, we see a regular increase in the number of orders over the months. There is a significant increase especially in November 2017. The Black Friday implemented in November may have been effective in this increase. There is another significant increase in January 2018, the reason for this may be the salary increases made in the new year or the gifts received for the new year/Christmas celebrations.
