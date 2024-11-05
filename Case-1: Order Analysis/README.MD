@@ -17,4 +17,4 @@ order by 1;
 ![alt text](https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-1%3A%20Order%20Analysis/Case1/Case1-Q1.png)
 
 ### EXCEL OUTPUT
-<img src="https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-1%3A%20Order%20Analysis/Case1/Case1-Q1.png" alt="alt text" width="750"/>
+<img src="https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-1%3A%20Order%20Analysis/Case1/Case1-Q1-G.png" alt="alt text" width="750"/>
