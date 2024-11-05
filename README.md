@@ -8,5 +8,3 @@ You can see the SQL diagram of the dataset below:
 
 ```sql
 select*from table
-
-select*from anan
