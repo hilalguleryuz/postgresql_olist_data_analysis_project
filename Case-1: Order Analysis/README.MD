@@ -1,6 +1,6 @@
 ## Case 1: Order Analysis
 
-### Question 1:
+#### Question 1:
 - Examine the monthly order distribution.
 
 ```sql
@@ -20,7 +20,7 @@ order by 1;
 
 When we examine the output, we see a regular increase in the number of orders over the months. There is a significant increase especially in November 2017. The Black Friday implemented in November may have been effective in this increase. There is another significant increase in January 2018, the reason for this may be the salary increases made in the new year or the gifts received for the new year/Christmas celebrations.
 ____
-Question 2:
+#### Question 2:
 - Examine the order numbers in the monthly order status breakdown. Are there any months with a dramatic decrease or increase?
 
 ```sql
@@ -41,7 +41,7 @@ order by 1;
 
 When we examine the graph, we see a regular increase in the number of delivered orders over the months. There is a sudden increase especially in November 2017, the reason for this may be the special campaigns made in the relevant month or the Black Friday implemented all over the world in November. Again, there is a dramatic increase in January 2018. The reason for this may be the salary increases made in the new year or the gifts received for New Year/Christmas celebrations. There is also a serious increase in March 2018. Women's Day (March 8), celebrated worldwide, may have been effective in this increase.
 ____
-Question 3:
+#### Question 3:
 - Examine the order numbers in the product category breakdown. What are the categories that stand out on special days? For example, New Year's, Valentine's Day, etc.
 
 ```sql
@@ -70,7 +70,7 @@ select * from special_days where rn between 1 and 5;
 
 In the chart above, the order numbers are grouped by category and include the months of Valentine's Day and New Year's/Christmas. I examined the 5 categories that stand out in the months of the relevant special days. For example, when we look at December 2017 for New Year's/Christmas, bedroom and bathroom products, sports, health/beauty, toys and watches are among the most ordered categories. The fact that the toy category is in the top 5 may be due to the gifts bought for children at Christmas. Again, the watch and health/beauty categories are among the gifts bought at New Year's and therefore are among the top 5 categories. Since our data does not include December 2016 and December 2018, we cannot make any comments about New Year's/Christmas for those periods. We see that the health/beauty category is one of the most ordered categories for Valentine's Day in February 2018.
 ____
-Question 4:
+#### Question 4:
 - Examine the order numbers based on days of the week and days of the month.
 
 For days of the week:
