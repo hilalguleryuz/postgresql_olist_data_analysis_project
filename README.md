@@ -67,8 +67,8 @@ left join items i on o.order_id = i.order_id
 left join products p on i.product_id = p.product_id
 left join translation t on p.product_category_name = t.category_name
 where
-     to_char(order_approved_at, 'MM') = '02’ or --sevgililer günü için
-     to_char(order_approved_at, 'MM') = '12' --yılbaşı/noel için
+     to_char(order_approved_at, 'MM') = '02’ or --for valentine's day
+     to_char(order_approved_at, 'MM') = '12' --for christmas/new year
 group by 1,2
 )
 select * from special_days where rn between 1 and 5;
@@ -90,8 +90,8 @@ ______
 For days of the week:
 ```sql
 select
-to_char(order_purchase_timestamp, 'Day’) as days_of_week,
-count(order_id) as order_count
+     to_char(order_purchase_timestamp, 'Day’) as days_of_week,
+     count(order_id) as order_count
 from orders
 where order_purchase_timestamp is not null
 group by 1
@@ -111,8 +111,8 @@ ____
 For days of the month:
 ```sql
 select
-to_char(order_purchase_timestamp, 'DD’) as days_of_month,
-count(order_id) as order_count
+     to_char(order_purchase_timestamp, 'DD’) as days_of_month,
+     count(order_id) as order_count
 from orders
 where order_purchase_timestamp is not null
 group by 1
