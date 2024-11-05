@@ -1,6 +1,6 @@
 ## Case 1: Order Analysis
 
-Question 1:
+### Question 1:
 - Examine the monthly order distribution.
 
 ```sql
