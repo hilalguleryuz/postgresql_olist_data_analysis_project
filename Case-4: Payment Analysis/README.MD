@@ -44,7 +44,7 @@ order by 2 desc;
 ![alt text](https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q2.png)
 
 ### EXCEL OUTPUT
-<img src="https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q2-G.png" alt="alt text" width="750"/>
+<img src="https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q2-G.png" alt="alt text" width="650"/>
 
 When we examine the graph above, we see that the most used payment method is credit card and the least used method is debit card.
 ____
@@ -68,7 +68,7 @@ order by 2 desc;
 ![alt text](https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q3.png)
 
 ### EXCEL OUTPUT
-<img src="https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q3-G.png" alt="alt text" width="750"/>
+<img src="https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q3-G.png" alt="alt text" width="800"/>
 
 In the graph above, we see the total number of orders paid with a single payment, grouped by category. In this graph, I have shown the top 20 categories with the most orders. According to this result, products in the sports/entertainment category were purchased the most with a single payment. This category is followed by computer accessories and health/beauty categories.
 ____
@@ -92,7 +92,7 @@ order by 2 desc;
 ![alt text](https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q4.png)
 
 ### EXCEL OUTPUT
-<img src="https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q4-G.png" alt="alt text" width="750"/>
+<img src="https://github.com/hilalguleryuz/postgresql_olist_data_analysis_project/blob/main/Case-4%3A%20Payment%20Analysis/Case4/Case4-Q4-G.png" alt="alt text" width="800"/>
 
 In the graph above, we see the total number of orders paid in installments grouped by category. In this graph, I have shown the top 20 categories with the most orders. According to this result, the bedroom and bathroom category products were purchased the most in installments. This category is followed by health/beauty and watch categories.
 
